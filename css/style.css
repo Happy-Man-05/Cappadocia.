@@ -1,0 +1,426 @@
+@import url('http://fonts.cdnfonts.com/css/balqis');
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/balqis');
+
+.ibg_fone {
+    width: 100%;
+    height: 100vh;
+    background: url('./../img/girl-background.png') center / cover no-repeat;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.app {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+    padding-top: 30px;
+    text-decoration: none;
+
+}
+
+.menu_item {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto+Condensed';
+    text-decoration: none;
+
+}
+
+.number {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 100%;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+.menu_num {
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto+Condensed';
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    font-family: 'Roboto-Condensed';
+    padding-top: 10%;
+}
+
+.center-text p {
+    text-align: end;
+    font-size: 40px;
+    font-family: 'balqis';
+    font-weight: 400;
+}
+
+
+.section-1 {
+    margin-top: 10%;
+}
+
+
+.text h2 {
+    font-size: 100px;
+    font-family: 'balqis';
+    color: #E2AB3F;
+}
+
+.text {
+    width: 45%;
+    margin-bottom: 10%;
+}
+
+.text p {
+    text-align: end;
+    font-size: 24px;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+}
+
+.card-text-section-1 {
+    width: 80%;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+
+.card-text-section-1 h5 {
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+.card-section-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.card-text-section-1 {
+    padding-top: 10px;
+    margin-left: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Roboto Condensed';
+}
+
+/* section 2 */
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text-2 h2 {
+    font-size: 100px;
+    font-family: 'balqis';
+    color: #E2AB3F;
+
+}
+
+.text-2 {
+    width: 33%;
+    margin: 10% 0;
+}
+
+.text-2 p {
+    width: 100%;
+    text-align: end;
+    font-size: 24px;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+}
+
+.day-text {
+    width: 40%;
+    padding-top: 10px;
+    margin-left: 20%;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Roboto Condensed';
+}
+
+.day-text h5 {
+    font-size: 24px;
+    font-family: '';
+}
+
+.take-btn {
+    text-align: center;
+    border: 1px solid #E2AB3F;
+}
+
+.take-btn:hover {
+    background-color: #e2ac3f7c;
+    transition: 0.4s;
+}
+
+#carouselExampleFade {
+    flex: 0 1 65%;
+}
+
+
+/* section 3 */
+
+.text-3 {
+    width: 28%;
+    margin: 8% 0;
+}
+
+.text-3 h2 {
+    font-size: 100px;
+    font-family: 'balqis';
+    color: #E2AB3F;
+}
+
+.text-3 p {
+    text-align: end;
+    font-size: 24px;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.307);
+    padding-right: 10px;
+}
+
+
+
+.section-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cake-big {
+    flex: 0 1 42%;
+}
+
+.cake-big img {
+    width: 100%;
+}
+
+.cake-text {
+    flex: 0 1 56%;
+    font-weight: 300;
+    font-size: 16.8px;
+    font-family: 'Roboto Condensed';
+}
+
+.cake-little {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.cake-little img {
+    padding-top: 10px;
+}
+
+/* section 4 */
+.menu-description {
+    display: flex;
+}
+
+.menu-description h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.container-desription {
+    margin: 0 0 0 10%;
+}
+
+
+.description-section-4 {
+    flex: 0 1 38%;
+}
+
+.description-section-4 p {
+    padding-top: 9px;
+    margin-top: 24px;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Roboto Condensed';
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.description-2-section-4 {
+    flex: 0 1 30%;
+    margin-left: 20px;
+}
+
+.description-2-section-4 p {
+    padding-top: 9px;
+    margin-top: 24px;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Roboto Condensed';
+}
+
+.parashute {
+    display: flex;
+    flex: 0 1 15%;
+}
+
+.parashute img:nth-child(1),
+.parashute img:nth-child(2) {
+    width: 35%;
+    height: 20%;
+}
+
+.parashute img:nth-child(1) {
+    margin-top: 50%;
+}
+
+.parashute img:nth-child(2) {
+    margin-top: 130%;
+}
+
+.parashute img:nth-child(3) {
+    margin-top: -50%;
+    width: 100%;
+    height: 60%;
+}
+
+/* section 5 */
+.menu-section-5 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.section-5-girl {
+    flex: 0 1 30%;
+}
+
+
+.section-5-take h4 {
+    margin-bottom: 50px;
+}
+
+.section-5-take {
+    width: 100%;
+}
+
+
+.section-5-btn {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 5px 0 5px 15px;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #ffffff;
+    border-color: #E2AB3F;
+    font-family: 'Roboto Condensed';
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+.section-5-btn-take {
+    width: 77%;
+    margin: 10px 0 0 32px;
+    padding: 5px 0 5px 1px;
+    font-weight: 400;
+    font-size: 24px;
+    background-color: #ffffff;
+    border-color: #E2AB3F;
+    font-family: 'Roboto Condensed';
+    box-shadow: 0px 0px 1px 0px black;
+    border-radius: 4px;
+
+}
+
+.section-5-btn-take:hover {
+    transition: 0.4s;
+    background-color: #E2AB3F;
+}
+
+
+/* ======== Footer =========*/
+.footer {
+    width: 100%;
+    height: 120vh;
+    background: url('./../img/girl-background.png') center / cover no-repeat;
+    margin-top: 10%;
+}
+
+.footer-dream {
+    display: flex;
+    align-items: center;
+}
+
+.footer-text h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Roboto-Condensed';
+    color: #E2AB3F;
+}
+
+.footer-parashute {
+    display: flex;
+    justify-content: center;
+    width: 72%;
+    height: 86vh;
+    background: url('./../img/white-parachute-1.png')center / cover no-repeat;
+    padding-top: 15%;
+}
+
+.footer-card {
+    display: flex;
+    flex: 0 1 50%;
+    padding-top: 10%;
+}
+
+.footer-img-message,
+.footer-img-phone {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-img-message img,
+.footer-img-phone img {
+    width: 13%;
+    height: 4vh;
+}
+
+.footer-contacts {
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.footer-img-app {
+    text-align: center;
+}
+
+.center-text h2 {
+    font-size: 60px;
+    font-family: 'Roboto-Condensed';
+}
